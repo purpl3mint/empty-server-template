@@ -4,7 +4,8 @@
   "description": "Empty server for HTML+CSS+JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/purpl3mint/empty-server-template/issues"
   },
-  "homepage": "https://github.com/purpl3mint/empty-server-template#readme"
+  "homepage": "https://github.com/purpl3mint/empty-server-template#readme",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
